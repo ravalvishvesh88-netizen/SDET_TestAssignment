@@ -7,16 +7,16 @@
       "RelativeMoniker": "D:0:0:{355437C5-F086-4520-A186-4C8E988F6D09}|TestAssignment\\TestAssignment.csproj|solutionrelative:testassignment\\drivers\\driverfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{355437C5-F086-4520-A186-4C8E988F6D09}|TestAssignment\\TestAssignment.csproj|c:\\users\\vishv\\source\\repos\\testassignment\\testassignment\\readme.md||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{355437C5-F086-4520-A186-4C8E988F6D09}|TestAssignment\\TestAssignment.csproj|solutionrelative:testassignment\\readme.md||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{355437C5-F086-4520-A186-4C8E988F6D09}|TestAssignment\\TestAssignment.csproj|c:\\users\\vishv\\source\\repos\\testassignment\\testassignment\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
       "RelativeMoniker": "D:0:0:{355437C5-F086-4520-A186-4C8E988F6D09}|TestAssignment\\TestAssignment.csproj|solutionrelative:testassignment\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{355437C5-F086-4520-A186-4C8E988F6D09}|TestAssignment\\TestAssignment.csproj|c:\\users\\vishv\\source\\repos\\testassignment\\testassignment\\docs\\teststrategy.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
       "RelativeMoniker": "D:0:0:{355437C5-F086-4520-A186-4C8E988F6D09}|TestAssignment\\TestAssignment.csproj|solutionrelative:testassignment\\docs\\teststrategy.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{355437C5-F086-4520-A186-4C8E988F6D09}|TestAssignment\\TestAssignment.csproj|c:\\users\\vishv\\source\\repos\\testassignment\\testassignment\\readme.md||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{355437C5-F086-4520-A186-4C8E988F6D09}|TestAssignment\\TestAssignment.csproj|solutionrelative:testassignment\\readme.md||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{355437C5-F086-4520-A186-4C8E988F6D09}|TestAssignment\\TestAssignment.csproj|c:\\users\\vishv\\source\\repos\\testassignment\\testassignment\\tests\\registertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -66,7 +66,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": ".gitignore",
               "DocumentMoniker": "C:\\Users\\vishv\\source\\repos\\TestAssignment\\TestAssignment\\.gitignore",
               "RelativeDocumentMoniker": "TestAssignment\\.gitignore",
@@ -74,12 +74,11 @@
               "RelativeToolTip": "TestAssignment\\.gitignore",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2026-03-25T11:19:03.742Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-25T11:19:03.742Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "TestStrategy.md",
               "DocumentMoniker": "C:\\Users\\vishv\\source\\repos\\TestAssignment\\TestAssignment\\Docs\\TestStrategy.md",
               "RelativeDocumentMoniker": "TestAssignment\\Docs\\TestStrategy.md",
@@ -91,15 +90,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "README.md",
               "DocumentMoniker": "C:\\Users\\vishv\\source\\repos\\TestAssignment\\TestAssignment\\README.md",
               "RelativeDocumentMoniker": "TestAssignment\\README.md",
               "ToolTip": "C:\\Users\\vishv\\source\\repos\\TestAssignment\\TestAssignment\\README.md",
               "RelativeToolTip": "TestAssignment\\README.md",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAG4AAAADAAAAAAAAAA==",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAAG4AAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
-              "WhenOpened": "2026-03-25T10:32:00.218Z"
+              "WhenOpened": "2026-03-25T10:32:00.218Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
