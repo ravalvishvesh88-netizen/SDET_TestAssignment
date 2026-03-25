@@ -47,8 +47,8 @@ Docs         -> Test strategy document
 ## Setup Instructions
 
 ```bash
-git clone https://github.com/<your-username>/selenium-csharp-nunit-framework.git
-cd selenium-csharp-nunit-framework
+git clone https://github.com/ravalvishvesh88-netizen/SDET_TestAssignment.git
+cd SDET_TestAssignment
 dotnet restore
 ```
 
