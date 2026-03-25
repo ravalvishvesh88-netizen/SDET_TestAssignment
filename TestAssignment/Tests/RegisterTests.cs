@@ -7,6 +7,8 @@ using System.Text;
 using System.Threading.Tasks;
 using TestAssignment.Pages;
 using TestAssignment.Tests;
+using TestAssignment.Logs;
+
 
 namespace TestAssignment.Tests
 {
@@ -28,9 +30,9 @@ namespace TestAssignment.Tests
             //var registerPage = new RegisterPage(driver);
 
             registerPage.Navigate();
-            Logs.Logger.Info("Click on the Register");
+            LogManager.Info("Click on the Register");
             registerPage.RegisterLinkClick();
-            Logs.Logger.Info("Fill registration Form");
+            LogManager.Info("Fill registration Form");
 
             registerPage.FillRegistrationForm("FirstName",
                 "LastName",
@@ -49,7 +51,7 @@ namespace TestAssignment.Tests
         [Test]
         public void Register_WithEmptyFields_ShouldShowValidationErrors()
         {
-            Logs.Logger.Info("Test Register User with all blank input fields");
+            LogManager.Info("Test Register User with all blank input fields");
            // var registerPage = new RegisterPage(driver);
             registerPage.Navigate();
             registerPage.RegisterLinkClick();

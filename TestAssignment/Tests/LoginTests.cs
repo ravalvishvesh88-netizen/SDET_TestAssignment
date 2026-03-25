@@ -1,4 +1,5 @@
-﻿using TestAssignment.Pages;
+﻿using TestAssignment.Logs;
+using TestAssignment.Pages;
 
 namespace TestAssignment.Tests
 {
@@ -19,7 +20,7 @@ namespace TestAssignment.Tests
         [Test]
         public void Login_CorrectCredentials()
         {
-            Logs.Logger.Info("Input User Credentials");
+            LogManager.Info("Input User Credentials");
             loginPage.Login("Username123", "Password123");
             bool IsDisplayed = homePage.IsLoggedIn();
             Assert.IsTrue(IsDisplayed);
@@ -29,7 +30,7 @@ namespace TestAssignment.Tests
         [Test]
         public void Login_IncorrectCredentials() 
         {
-            Logs.Logger.Info("Input Wrong User Credentials");
+            LogManager.Info("Input Wrong User Credentials");
             loginPage.Login("invalid", "wrong");
             bool ErrorText = homePage.InvalidLogInError();
             Assert.IsTrue(ErrorText);
@@ -38,7 +39,7 @@ namespace TestAssignment.Tests
         [Test]
         public void Login_BlankCredentials()
         {
-            Logs.Logger.Info("Input Blank User Credentials");
+            LogManager.Info("Input Blank User Credentials");
             loginPage.Login("", "");
             Assert.IsTrue(homePage.BlankFieldsError());
         }
