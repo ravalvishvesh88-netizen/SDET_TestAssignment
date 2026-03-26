@@ -3,8 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\vishv\\source\\repos\\TestAssignment\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{355437C5-F086-4520-A186-4C8E988F6D09}|TestAssignment\\TestAssignment.csproj|c:\\users\\vishv\\source\\repos\\testassignment\\testassignment\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
-      "RelativeMoniker": "D:0:0:{355437C5-F086-4520-A186-4C8E988F6D09}|TestAssignment\\TestAssignment.csproj|solutionrelative:testassignment\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
+      "AbsoluteMoniker": "D:0:0:{355437C5-F086-4520-A186-4C8E988F6D09}|TestAssignment\\TestAssignment.csproj|c:\\users\\vishv\\source\\repos\\testassignment\\testassignment\\drivers\\waithelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{355437C5-F086-4520-A186-4C8E988F6D09}|TestAssignment\\TestAssignment.csproj|solutionrelative:testassignment\\drivers\\waithelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{355437C5-F086-4520-A186-4C8E988F6D09}|TestAssignment\\TestAssignment.csproj|c:\\users\\vishv\\source\\repos\\testassignment\\testassignment\\drivers\\driverfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{355437C5-F086-4520-A186-4C8E988F6D09}|TestAssignment\\TestAssignment.csproj|solutionrelative:testassignment\\drivers\\driverfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{355437C5-F086-4520-A186-4C8E988F6D09}|TestAssignment\\TestAssignment.csproj|c:\\users\\vishv\\source\\repos\\testassignment\\testassignment\\logger\\logmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -13,6 +17,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{355437C5-F086-4520-A186-4C8E988F6D09}|TestAssignment\\TestAssignment.csproj|c:\\users\\vishv\\source\\repos\\testassignment\\testassignment\\tests\\registertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{355437C5-F086-4520-A186-4C8E988F6D09}|TestAssignment\\TestAssignment.csproj|solutionrelative:testassignment\\tests\\registertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{355437C5-F086-4520-A186-4C8E988F6D09}|TestAssignment\\TestAssignment.csproj|c:\\users\\vishv\\source\\repos\\testassignment\\testassignment\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{355437C5-F086-4520-A186-4C8E988F6D09}|TestAssignment\\TestAssignment.csproj|solutionrelative:testassignment\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{355437C5-F086-4520-A186-4C8E988F6D09}|TestAssignment\\TestAssignment.csproj|c:\\users\\vishv\\source\\repos\\testassignment\\testassignment\\pages\\homepage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -39,10 +47,6 @@
       "RelativeMoniker": "D:0:0:{355437C5-F086-4520-A186-4C8E988F6D09}|TestAssignment\\TestAssignment.csproj|solutionrelative:testassignment\\.github\\workflows\\test.yml||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{355437C5-F086-4520-A186-4C8E988F6D09}|TestAssignment\\TestAssignment.csproj|c:\\users\\vishv\\source\\repos\\testassignment\\testassignment\\drivers\\driverfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{355437C5-F086-4520-A186-4C8E988F6D09}|TestAssignment\\TestAssignment.csproj|solutionrelative:testassignment\\drivers\\driverfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{355437C5-F086-4520-A186-4C8E988F6D09}|TestAssignment\\TestAssignment.csproj|c:\\users\\vishv\\source\\repos\\testassignment\\testassignment\\readme.md||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{355437C5-F086-4520-A186-4C8E988F6D09}|TestAssignment\\TestAssignment.csproj|solutionrelative:testassignment\\readme.md||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
@@ -62,28 +66,41 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "WaitHelper.cs",
+              "DocumentMoniker": "C:\\Users\\vishv\\source\\repos\\TestAssignment\\TestAssignment\\Drivers\\WaitHelper.cs",
+              "RelativeDocumentMoniker": "TestAssignment\\Drivers\\WaitHelper.cs",
+              "ToolTip": "C:\\Users\\vishv\\source\\repos\\TestAssignment\\TestAssignment\\Drivers\\WaitHelper.cs",
+              "RelativeToolTip": "TestAssignment\\Drivers\\WaitHelper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-25T12:48:57.497Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": ".gitignore",
               "DocumentMoniker": "C:\\Users\\vishv\\source\\repos\\TestAssignment\\TestAssignment\\.gitignore",
               "RelativeDocumentMoniker": "TestAssignment\\.gitignore",
               "ToolTip": "C:\\Users\\vishv\\source\\repos\\TestAssignment\\TestAssignment\\.gitignore",
               "RelativeToolTip": "TestAssignment\\.gitignore",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
               "WhenOpened": "2026-03-25T12:38:37.486Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "test.yml",
               "DocumentMoniker": "C:\\Users\\vishv\\source\\repos\\TestAssignment\\TestAssignment\\.github\\workflows\\test.yml",
               "RelativeDocumentMoniker": "TestAssignment\\.github\\workflows\\test.yml",
@@ -95,7 +112,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "TestStrategy.md",
               "DocumentMoniker": "C:\\Users\\vishv\\source\\repos\\TestAssignment\\TestAssignment\\Docs\\TestStrategy.md",
               "RelativeDocumentMoniker": "TestAssignment\\Docs\\TestStrategy.md",
@@ -107,7 +124,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "README.md",
               "DocumentMoniker": "C:\\Users\\vishv\\source\\repos\\TestAssignment\\TestAssignment\\README.md",
               "RelativeDocumentMoniker": "TestAssignment\\README.md",
@@ -119,7 +136,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "LogManager.cs",
               "DocumentMoniker": "C:\\Users\\vishv\\source\\repos\\TestAssignment\\TestAssignment\\Logger\\LogManager.cs",
               "RelativeDocumentMoniker": "TestAssignment\\Logger\\LogManager.cs",
@@ -132,19 +149,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 1,
               "Title": "DriverFactory.cs",
               "DocumentMoniker": "C:\\Users\\vishv\\source\\repos\\TestAssignment\\TestAssignment\\Drivers\\DriverFactory.cs",
               "RelativeDocumentMoniker": "TestAssignment\\Drivers\\DriverFactory.cs",
               "ToolTip": "C:\\Users\\vishv\\source\\repos\\TestAssignment\\TestAssignment\\Drivers\\DriverFactory.cs",
               "RelativeToolTip": "TestAssignment\\Drivers\\DriverFactory.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAhAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-25T08:30:09.119Z"
+              "WhenOpened": "2026-03-25T08:30:09.119Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "RegisterTests.cs",
               "DocumentMoniker": "C:\\Users\\vishv\\source\\repos\\TestAssignment\\TestAssignment\\Tests\\RegisterTests.cs",
               "RelativeDocumentMoniker": "TestAssignment\\Tests\\RegisterTests.cs",
@@ -152,11 +170,12 @@
               "RelativeToolTip": "TestAssignment\\Tests\\RegisterTests.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-25T08:07:42.043Z"
+              "WhenOpened": "2026-03-25T08:07:42.043Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "RegisterPage.cs",
               "DocumentMoniker": "C:\\Users\\vishv\\source\\repos\\TestAssignment\\TestAssignment\\Pages\\RegisterPage.cs",
               "RelativeDocumentMoniker": "TestAssignment\\Pages\\RegisterPage.cs",
@@ -168,7 +187,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "LoginTests.cs",
               "DocumentMoniker": "C:\\Users\\vishv\\source\\repos\\TestAssignment\\TestAssignment\\Tests\\LoginTests.cs",
               "RelativeDocumentMoniker": "TestAssignment\\Tests\\LoginTests.cs",
@@ -180,7 +199,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "BaseTest.cs",
               "DocumentMoniker": "C:\\Users\\vishv\\source\\repos\\TestAssignment\\TestAssignment\\Tests\\BaseTest.cs",
               "RelativeDocumentMoniker": "TestAssignment\\Tests\\BaseTest.cs",
@@ -192,7 +211,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "LoginPage.cs",
               "DocumentMoniker": "C:\\Users\\vishv\\source\\repos\\TestAssignment\\TestAssignment\\Pages\\LoginPage.cs",
               "RelativeDocumentMoniker": "TestAssignment\\Pages\\LoginPage.cs",
@@ -204,7 +223,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "HomePage.cs",
               "DocumentMoniker": "C:\\Users\\vishv\\source\\repos\\TestAssignment\\TestAssignment\\Pages\\HomePage.cs",
               "RelativeDocumentMoniker": "TestAssignment\\Pages\\HomePage.cs",
@@ -216,7 +235,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "BasePage.cs",
               "DocumentMoniker": "C:\\Users\\vishv\\source\\repos\\TestAssignment\\TestAssignment\\Pages\\BasePage.cs",
               "RelativeDocumentMoniker": "TestAssignment\\Pages\\BasePage.cs",

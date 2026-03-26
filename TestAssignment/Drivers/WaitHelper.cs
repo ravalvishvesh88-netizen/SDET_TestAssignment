@@ -12,13 +12,13 @@ namespace TestAssignment.Drivers
 {
     public class WaitHelper
     {
-        private IWebDriver driver;
+        private IWebDriver _driver;
         private WebDriverWait wait;
 
         public WaitHelper(IWebDriver driver)
         {
-            driver = driver;
-            wait = new WebDriverWait(driver,TimeSpan.FromSeconds(10));
+            _driver = driver;
+            wait = new WebDriverWait(_driver,TimeSpan.FromSeconds(10));
         }
 
         public IWebElement WaitForElement(By locator)
