@@ -14,7 +14,7 @@ namespace TestAssignment.Drivers
         {
             var options = new ChromeOptions();
             options.AddArgument("--start-maximized");
-            //options.AddArgument("--headless");              // Run without UI
+            options.AddArgument("--headless");              // Run without UI
             options.AddArgument("--no-sandbox");            // Required for CI
             options.AddArgument("--disable-dev-shm-usage"); // Fix memory issues
             return new ChromeDriver(options);
