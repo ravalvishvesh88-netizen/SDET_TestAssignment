@@ -41,7 +41,8 @@ namespace TestAssignment.Tests
         {
             LogManager.Info("Input Blank User Credentials");
             loginPage.Login("", "");
-            Assert.IsTrue(homePage.BlankFieldsError(),"Login failed with blank user credentials");
+            bool isDisplayed = homePage.BlankFieldsError();
+            Assert.IsTrue(isDisplayed,"Login failed with blank user credentials");
         }
 
     }

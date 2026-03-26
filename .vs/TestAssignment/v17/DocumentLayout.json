@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\Users\\vishv\\source\\repos\\TestAssignment\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{355437C5-F086-4520-A186-4C8E988F6D09}|TestAssignment\\TestAssignment.csproj|c:\\users\\vishv\\source\\repos\\testassignment\\testassignment\\tests\\logintests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{355437C5-F086-4520-A186-4C8E988F6D09}|TestAssignment\\TestAssignment.csproj|solutionrelative:testassignment\\tests\\logintests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{355437C5-F086-4520-A186-4C8E988F6D09}|TestAssignment\\TestAssignment.csproj|c:\\users\\vishv\\source\\repos\\testassignment\\testassignment\\pages\\homepage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{355437C5-F086-4520-A186-4C8E988F6D09}|TestAssignment\\TestAssignment.csproj|solutionrelative:testassignment\\pages\\homepage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{355437C5-F086-4520-A186-4C8E988F6D09}|TestAssignment\\TestAssignment.csproj|c:\\users\\vishv\\source\\repos\\testassignment\\testassignment\\.github\\workflows\\test.yml||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{355437C5-F086-4520-A186-4C8E988F6D09}|TestAssignment\\TestAssignment.csproj|solutionrelative:testassignment\\.github\\workflows\\test.yml||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
@@ -13,10 +21,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{355437C5-F086-4520-A186-4C8E988F6D09}|TestAssignment\\TestAssignment.csproj|c:\\users\\vishv\\source\\repos\\testassignment\\testassignment\\drivers\\driverfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{355437C5-F086-4520-A186-4C8E988F6D09}|TestAssignment\\TestAssignment.csproj|solutionrelative:testassignment\\drivers\\driverfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{355437C5-F086-4520-A186-4C8E988F6D09}|TestAssignment\\TestAssignment.csproj|c:\\users\\vishv\\source\\repos\\testassignment\\testassignment\\tests\\logintests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{355437C5-F086-4520-A186-4C8E988F6D09}|TestAssignment\\TestAssignment.csproj|solutionrelative:testassignment\\tests\\logintests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{355437C5-F086-4520-A186-4C8E988F6D09}|TestAssignment\\TestAssignment.csproj|c:\\users\\vishv\\source\\repos\\testassignment\\testassignment\\pages\\registerpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -47,10 +51,6 @@
       "RelativeMoniker": "D:0:0:{355437C5-F086-4520-A186-4C8E988F6D09}|TestAssignment\\TestAssignment.csproj|solutionrelative:testassignment\\logger\\logmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{355437C5-F086-4520-A186-4C8E988F6D09}|TestAssignment\\TestAssignment.csproj|c:\\users\\vishv\\source\\repos\\testassignment\\testassignment\\pages\\homepage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{355437C5-F086-4520-A186-4C8E988F6D09}|TestAssignment\\TestAssignment.csproj|solutionrelative:testassignment\\pages\\homepage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{355437C5-F086-4520-A186-4C8E988F6D09}|TestAssignment\\TestAssignment.csproj|c:\\users\\vishv\\source\\repos\\testassignment\\testassignment\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
       "RelativeMoniker": "D:0:0:{355437C5-F086-4520-A186-4C8E988F6D09}|TestAssignment\\TestAssignment.csproj|solutionrelative:testassignment\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
     },
@@ -66,7 +66,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -74,7 +74,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "DriverFactory.cs",
               "DocumentMoniker": "C:\\Users\\vishv\\source\\repos\\TestAssignment\\TestAssignment\\Drivers\\DriverFactory.cs",
               "RelativeDocumentMoniker": "TestAssignment\\Drivers\\DriverFactory.cs",
@@ -82,12 +82,11 @@
               "RelativeToolTip": "TestAssignment\\Drivers\\DriverFactory.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-25T08:30:09.119Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-25T08:30:09.119Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "LoginPage.cs",
               "DocumentMoniker": "C:\\Users\\vishv\\source\\repos\\TestAssignment\\TestAssignment\\Pages\\LoginPage.cs",
               "RelativeDocumentMoniker": "TestAssignment\\Pages\\LoginPage.cs",
@@ -99,7 +98,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "WaitHelper.cs",
               "DocumentMoniker": "C:\\Users\\vishv\\source\\repos\\TestAssignment\\TestAssignment\\Drivers\\WaitHelper.cs",
               "RelativeDocumentMoniker": "TestAssignment\\Drivers\\WaitHelper.cs",
@@ -107,25 +106,24 @@
               "RelativeToolTip": "TestAssignment\\Drivers\\WaitHelper.cs",
               "ViewState": "AgIAAAoAAAAAAAAAAADgvw0AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-25T12:48:57.497Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-25T12:48:57.497Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "LoginTests.cs",
               "DocumentMoniker": "C:\\Users\\vishv\\source\\repos\\TestAssignment\\TestAssignment\\Tests\\LoginTests.cs",
               "RelativeDocumentMoniker": "TestAssignment\\Tests\\LoginTests.cs",
               "ToolTip": "C:\\Users\\vishv\\source\\repos\\TestAssignment\\TestAssignment\\Tests\\LoginTests.cs",
               "RelativeToolTip": "TestAssignment\\Tests\\LoginTests.cs",
-              "ViewState": "AgIAABcAAAAAAAAAAAAawCwAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAABgAAAAAAAAAAAAYwB4AAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-25T08:00:24.7Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "BaseTest.cs",
               "DocumentMoniker": "C:\\Users\\vishv\\source\\repos\\TestAssignment\\TestAssignment\\Tests\\BaseTest.cs",
               "RelativeDocumentMoniker": "TestAssignment\\Tests\\BaseTest.cs",
@@ -137,7 +135,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "RegisterTests.cs",
               "DocumentMoniker": "C:\\Users\\vishv\\source\\repos\\TestAssignment\\TestAssignment\\Tests\\RegisterTests.cs",
               "RelativeDocumentMoniker": "TestAssignment\\Tests\\RegisterTests.cs",
@@ -149,20 +147,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "test.yml",
               "DocumentMoniker": "C:\\Users\\vishv\\source\\repos\\TestAssignment\\TestAssignment\\.github\\workflows\\test.yml",
               "RelativeDocumentMoniker": "TestAssignment\\.github\\workflows\\test.yml",
               "ToolTip": "C:\\Users\\vishv\\source\\repos\\TestAssignment\\TestAssignment\\.github\\workflows\\test.yml",
               "RelativeToolTip": "TestAssignment\\.github\\workflows\\test.yml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAfAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
               "WhenOpened": "2026-03-25T12:05:46.231Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "BasePage.cs",
               "DocumentMoniker": "C:\\Users\\vishv\\source\\repos\\TestAssignment\\TestAssignment\\Pages\\BasePage.cs",
               "RelativeDocumentMoniker": "TestAssignment\\Pages\\BasePage.cs",
@@ -174,7 +172,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "RegisterPage.cs",
               "DocumentMoniker": "C:\\Users\\vishv\\source\\repos\\TestAssignment\\TestAssignment\\Pages\\RegisterPage.cs",
               "RelativeDocumentMoniker": "TestAssignment\\Pages\\RegisterPage.cs",
@@ -182,12 +180,11 @@
               "RelativeToolTip": "TestAssignment\\Pages\\RegisterPage.cs",
               "ViewState": "AgIAADwAAAAAAAAAAAAiwFAAAABEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-25T08:03:51.65Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-25T08:03:51.65Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "TestStrategy.md",
               "DocumentMoniker": "C:\\Users\\vishv\\source\\repos\\TestAssignment\\TestAssignment\\Docs\\TestStrategy.md",
               "RelativeDocumentMoniker": "TestAssignment\\Docs\\TestStrategy.md",
@@ -199,7 +196,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 1,
+              "Title": "HomePage.cs",
+              "DocumentMoniker": "C:\\Users\\vishv\\source\\repos\\TestAssignment\\TestAssignment\\Pages\\HomePage.cs",
+              "RelativeDocumentMoniker": "TestAssignment\\Pages\\HomePage.cs",
+              "ToolTip": "C:\\Users\\vishv\\source\\repos\\TestAssignment\\TestAssignment\\Pages\\HomePage.cs",
+              "RelativeToolTip": "TestAssignment\\Pages\\HomePage.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAvwB0AAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-25T07:53:30.251Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "LogManager.cs",
               "DocumentMoniker": "C:\\Users\\vishv\\source\\repos\\TestAssignment\\TestAssignment\\Logger\\LogManager.cs",
               "RelativeDocumentMoniker": "TestAssignment\\Logger\\LogManager.cs",
@@ -208,18 +218,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-25T09:58:49.602Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "HomePage.cs",
-              "DocumentMoniker": "C:\\Users\\vishv\\source\\repos\\TestAssignment\\TestAssignment\\Pages\\HomePage.cs",
-              "RelativeDocumentMoniker": "TestAssignment\\Pages\\HomePage.cs",
-              "ToolTip": "C:\\Users\\vishv\\source\\repos\\TestAssignment\\TestAssignment\\Pages\\HomePage.cs",
-              "RelativeToolTip": "TestAssignment\\Pages\\HomePage.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAIwCEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-25T07:53:30.251Z"
             },
             {
               "$type": "Document",
