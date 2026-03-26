@@ -1,5 +1,4 @@
-﻿using Microsoft.Win32;
-using NUnit.Framework.Internal;
+﻿using NUnit.Framework.Internal;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -27,8 +26,6 @@ namespace TestAssignment.Tests
         [Test]
         public void Registration_Successful()
         {
-            //var registerPage = new RegisterPage(driver);
-
             registerPage.Navigate();
             LogManager.Info("Click on the Register");
             registerPage.RegisterLinkClick();
@@ -52,7 +49,6 @@ namespace TestAssignment.Tests
         public void Register_WithEmptyFields_ShouldShowValidationErrors()
         {
             LogManager.Info("Test Register User with all blank input fields");
-           // var registerPage = new RegisterPage(driver);
             registerPage.Navigate();
             registerPage.RegisterLinkClick();
             registerPage.ClickRegister();

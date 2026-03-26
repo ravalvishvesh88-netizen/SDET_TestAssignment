@@ -16,23 +16,24 @@ namespace TestAssignment.Pages
         public RegisterPage(IWebDriver driver) : base(driver) { }
 
         //Locators
-        private IWebElement FirstName => driver.FindElement(By.Id("customer.firstName"));
-        private IWebElement LastName => driver.FindElement(By.Id("customer.lastName"));
-        private IWebElement Address => driver.FindElement(By.Id("customer.address.street"));
-        private IWebElement City => driver.FindElement(By.Id("customer.address.city"));
-        private IWebElement State => driver.FindElement(By.Id("customer.address.state"));
-        private IWebElement ZipCode => driver.FindElement(By.Id("customer.address.zipCode"));
-        private IWebElement Phone => driver.FindElement(By.Id("customer.phoneNumber"));
-        private IWebElement SSN => driver.FindElement(By.Id("customer.ssn"));
-        private IWebElement Username => driver.FindElement(By.Id("customer.username"));
-        private IWebElement Password => driver.FindElement(By.Id("customer.password"));
-        private IWebElement ConfirmPassword => driver.FindElement(By.Id("repeatedPassword"));
-        private IWebElement RegisterButton => driver.FindElement(By.CssSelector("input[value='Register']"));
+        //private IWebElement FirstName => driver.FindElement(By.Id("customer.firstName"));
 
-        private IWebElement Register_NewUser => driver.FindElement(By.XPath("//a[text() = \"Register\"]"));
+        private By FirstName = By.Id("customer.firstName");
+        private By LastName = By.Id("customer.lastName");
+        private By Address = By.Id("customer.address.street");
+        private By City = By.Id("customer.address.city");
+        private By State = By.Id("customer.address.state");
+        private By ZipCode = By.Id("customer.address.zipCode");
+        private By Phone = By.Id("customer.phoneNumber");
+        private By SSN = By.Id("customer.ssn");
+        private By Username = By.Id("customer.username");
+        private By Password = By.Id("customer.password");
+        private By ConfirmPassword = By.Id("repeatedPassword");
+        private By RegisterButton = By.CssSelector("input[value='Register']");
+        private By Register_NewUser = By.XPath("//a[text()='Register']");
 
         // Error locators
-        public By FirstNameError => By.Id("customer.firstName.errors");
+        public By FirstNameError =>  By.Id("customer.firstName.errors");
         public By LastNameError => By.Id("customer.lastName.errors");
         public By AddressError => By.Id("customer.address.street.errors");
         public By CityError => By.Id("customer.address.city.errors");
@@ -45,8 +46,8 @@ namespace TestAssignment.Pages
 
         public string GetError(By locator)
         {
-            var wait = new WebDriverWait(driver, TimeSpan.FromSeconds(10));
-            return wait.Until(ExpectedConditions.ElementIsVisible(locator)).Text;
+            return wait.WaitForElement(locator).Text;
+
         }
 
 
@@ -56,9 +57,10 @@ namespace TestAssignment.Pages
             driver.Navigate().GoToUrl("https://parabank.parasoft.com/parabank/register.htm");
         }
 
+
         public void RegisterLinkClick()
         {
-            Register_NewUser.Click();
+            wait.WaitForElement(Register_NewUser).Click();
         }
 
         // Fill Registration Form
@@ -66,22 +68,22 @@ namespace TestAssignment.Pages
                                          string state, string zip, string phone, string ssn,
                                          string username, string password)
         {
-            FirstName.SendKeys(fname);
-            LastName.SendKeys(lname);
-            Address.SendKeys(addr);
-            City.SendKeys(city);
-            State.SendKeys(state);
-            ZipCode.SendKeys(zip);
-            Phone.SendKeys(phone);
-            SSN.SendKeys(ssn);
-            Username.SendKeys(username);
-            Password.SendKeys(password);
-            ConfirmPassword.SendKeys(password);
+            wait.WaitForElement(FirstName).SendKeys(fname);
+            wait.WaitForElement(LastName).SendKeys(lname);
+            wait.WaitForElement(Address).SendKeys(addr);
+            wait.WaitForElement(City).SendKeys(city);
+            wait.WaitForElement(State).SendKeys(state);
+            wait.WaitForElement(ZipCode).SendKeys(zip);
+            wait.WaitForElement(Phone).SendKeys(phone);
+            wait.WaitForElement(SSN).SendKeys(ssn);
+            wait.WaitForElement(Username).SendKeys(username);
+            wait.WaitForElement(Password).SendKeys(password);
+            wait.WaitForElement(ConfirmPassword).SendKeys(password);
         }
 
         public void ClickRegister()
         {
-            RegisterButton.Click();
+            wait.WaitForElement(RegisterButton).Click();
         }
 
 

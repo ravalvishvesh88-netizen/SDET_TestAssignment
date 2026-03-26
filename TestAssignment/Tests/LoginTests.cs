@@ -23,7 +23,7 @@ namespace TestAssignment.Tests
             LogManager.Info("Input User Credentials");
             loginPage.Login("Username123", "Password123");
             bool IsDisplayed = homePage.IsLoggedIn();
-            Assert.IsTrue(IsDisplayed);
+            Assert.IsTrue(IsDisplayed,"Login failed with valid credentials");
 
         }
 
@@ -33,7 +33,7 @@ namespace TestAssignment.Tests
             LogManager.Info("Input Wrong User Credentials");
             loginPage.Login("invalid", "wrong");
             bool ErrorText = homePage.InvalidLogInError();
-            Assert.IsTrue(ErrorText);
+            Assert.IsTrue(ErrorText, "Login failed with wrong input");
         }
 
         [Test]
@@ -41,7 +41,7 @@ namespace TestAssignment.Tests
         {
             LogManager.Info("Input Blank User Credentials");
             loginPage.Login("", "");
-            Assert.IsTrue(homePage.BlankFieldsError());
+            Assert.IsTrue(homePage.BlankFieldsError(),"Login failed with blank user credentials");
         }
 
     }
